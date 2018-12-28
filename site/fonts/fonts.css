@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Helvetica Neue Cyr - Light Italic"; /* Гарнитура шрифта */
+    src: url('helveticaneuecyr_l.otf'); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "Helvetica Neue Cyr"; /* Гарнитура шрифта */
+    src: url('helveticaneuecyr.otf'); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "Helvetica Neue Cyr - Black"; /* Гарнитура шрифта */
+    src: url('helveticaneuecyr_b.otf'); /* Путь к файлу со шрифтом */
+}
