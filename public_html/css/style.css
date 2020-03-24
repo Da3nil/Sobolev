@@ -1,0 +1,421 @@
+/*СЛУЖЕБНЫЕ*/
+hr {
+    background-color: white;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.container-no-padding .row > div {
+    padding: 0;
+}
+
+.dark {
+    position: absolute;
+    height: 100%;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    opacity: 0.3;
+    background-color: #000000;
+}
+
+.hr--part {
+    max-width: 254px;
+    height: 2px;
+    margin: 0 auto 24px auto;
+}
+
+
+/*ТЕКСТ*/
+.title {
+    padding-top: 44px;
+    text-align: center;
+    color: #323131;
+    font-family: "Helvetica Neue Cyr";
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.text {
+    color: #323131;
+    font-family: "Helvetica Neue Cyr";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.text--main {
+    text-shadow: 0 0 21px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-family: "Helvetica Neue Cyr";
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.text--light {
+    text-shadow: 0 0 21px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-family: "Helvetica Neue Cyr";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+/*КНОПКИ*/
+.btn-group--main {
+    display: block;
+    max-width: 436px;
+    margin: 62px auto;
+}
+
+.btn-group--main a {
+    text-decoration: none;
+    line-height: 62px;
+    text-align: center;
+    font-family: "Helvetica Neue Cyr";
+    font-weight: 300;
+    border: 1px solid #d1d1d1;
+    color: white;
+    width: 183px;
+    height: 62px;
+    /*padding: 30px 20px;*/
+}
+
+.pink-button {
+    background-color: rgba(227, 160, 212, 0.6);
+}
+
+.pink-button:hover {
+    background-color: rgba(196, 115, 178, 0.7);
+}
+
+.black-button {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.black-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*СЛАЙДЕР*/
+.sliderprev {
+    display: none;
+}
+
+.slidernext {
+    display: none;
+}
+
+.btn-group__slider {
+    margin-bottom: 32px;
+}
+
+.slider {
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    background-color: rgba(0,0,0,0.3) !important;
+}
+
+.resizeSlider {
+    z-index: -1 !important;
+    background-color: transparent !important;
+    /*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ) !important;*/
+}
+
+
+/*ШАПКА*/
+header {
+    margin: 40px 0 40px 0;
+    display: block;
+}
+
+header > div {
+    display: inline-block;
+    width: 100%;
+}
+
+.logo img {
+    padding-right: 18px;
+}
+
+.logo-name {
+    color: #ffffff;
+    font-family: "Helvetica Neue Cyr - Light Italic";
+    font-size: 60px;
+    line-height: 60px;
+    /*font-weight: 400;*/
+}
+
+.logo-description {
+    color: #e3a0d4;
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: "Helvetica Neue Cyr";
+}
+
+.call {
+    font-family: "Helvetica Neue Cyr - Black";
+    font-size: 27px;
+    line-height: 27px;
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+
+.placeholder {
+    margin-top: 6px;
+    color: #ffffff;
+    font-family: "Helvetica Neue Cyr";
+    font-size: 19px;
+    line-height: 19px;
+}
+
+.call img,
+.placeholder img{
+    width: 20px;
+}
+
+.call span,
+.placeholder span{
+    padding-left: 13px;
+}
+
+#countdown * {
+    background-color: red;
+}
+
+/*МЕНЮ НАВИГАЦИИ*/
+.menu {
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    font-family: "Helvetica Neue Cyr";
+    font-size: 18px;
+    padding: 18px 28px;
+}
+
+.nav-link:hover {
+    color: #e3a0d4;
+}
+.nav-link:active {
+    background-color: rgba(255, 255, 255, 0.1);;
+}
+
+
+/*СЛОГАН*/
+.slogan__text--main {
+    max-width: 702px;
+    text-align: center;
+    width: 100%;
+    margin: 109px auto 0 auto;
+}
+
+.slogan__text--light {
+    max-width: 502px;
+    text-align: center;
+    width: 100%;
+    margin: 36px auto 33px auto;
+}
+
+
+/*РЯД ИЗ 4 КНОПОК*/
+.portfolio-buttons {
+    padding-top: 40px;
+    padding-bottom: 35px;
+    background-color: #e3a0d4;
+}
+
+.button__portfolio-buttons {
+    padding: 15px;
+}
+
+.portfolio-button a {
+    text-decoration: none;
+}
+
+.image__portfolio-button {
+    position: relative;
+    width: 95px;
+    height: 95px;
+    border: 3px solid #fffafd;
+    border-radius: 100%;
+    background-color: #d28ac2;
+    margin: 0 auto;
+}
+
+.portfolio-button img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.portfolio-button:hover .image__portfolio-button {
+    background-color: #c473b2;
+}
+
+.text__portfolio-button {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: "Helvetica Neue Cyr";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/*НАШИ РАБОТЫ*/
+.portfolio-items {
+    margin-top: 44px;
+}
+
+.item {
+    padding: 20px 5px;
+}
+
+.item div {
+    border: 3px solid rgba(0,0,0,0);
+}
+
+.item:hover div {
+    border: 3px solid #fffafd;
+    box-shadow: 0 0 22px 2px #aeaeae;
+}
+
+.item__portfolio-items {
+    margin: 20px;
+ }
+
+.item__portfolio-items:hover {
+    box-shadow: 0 0 22px 2px #aeaeae;
+    border: 3px solid #fffafd;
+}
+
+/*ОСОБЕННОСТЬ*/
+.privilege {
+    height: 416px;
+    width: 100%;
+    opacity: 1;
+    background-image: url("../images/privilege.png");
+}
+
+.dark__privilege {
+    display: table;
+    height: 416px;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.text__privilege {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+/*О НАС*/
+.about-us img {
+    /*height: 100%;*/
+    width: 100%;
+}
+
+.about-us .title {
+    margin-top: 60px;
+    padding-top: 0;
+}
+
+.text__about-us {
+    margin: 0 auto;
+    padding-left: 65px;
+    padding-right: 65px;
+    text-align: center;
+}
+
+.btn-group--main__about-us {
+    margin-bottom: 54px;
+}
+
+
+/*ОТЗЫВЫ*/
+.item__reviews {
+    box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.13);
+}
+
+.item__reviews img {
+    /*position: absolute;*/
+    left: 20%;
+    top: 0;
+    width: 100%;
+}
+
+.review {
+    position: absolute;
+    overflow: auto;
+    top: 10%;
+    right: 0;
+    left: -20%;
+    z-index: 1;
+    height: 100%;
+    border: 1px solid #c9c9cb;
+    background-color: #ffffff;
+}
+
+.author {
+    text-align: left;
+    padding: 2% 0 1% 25%;
+}
+
+.location {
+    color: #757575;
+    padding: 1% 0 1% 25%;
+    font-family: "Helvetica Neue Cyr";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.text__review {
+    padding: 1% 3% 2% 25%;
+}
+
+.btn-group--main__reviews {
+    margin-top: 100px;
+    margin-bottom: 52px;
+}
+
+
+/*ПОДВАЛ*/
+.footer > .row > div {
+    padding: 0;
+}
+
+.gray {
+    background-color: #c9c9cb;
+}
+
+.logo--footer {
+    text-align: center;
+    display: block;
+    margin: 90px auto;
+}
+
+.logo-name--footer {
+    color: #282828;
+    font-family: "Nexa Script - Heavy";
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.contacts__footer {
+    margin-top: 40px;
+    /*float: left;*/
+}
+
+.contacts__footer > div {
+    color: black
+}
